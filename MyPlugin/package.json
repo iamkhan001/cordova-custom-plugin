@@ -1,0 +1,19 @@
+{
+  "name": "com.sa.anb.myplugin",
+  "version": "1.0.2",
+  "cordova": {
+    "id": "com.sa.anb.myplugin",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "author": "imran",
+  "license": "ISC",
+  "description": ""
+}

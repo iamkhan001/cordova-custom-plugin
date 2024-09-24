@@ -1,0 +1,41 @@
+{
+  "name": "com.sa.anb.alertplugin",
+  "displayName": "AlertPlugin",
+  "version": "1.0.0",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Apache Cordova Team",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "com.sa.anb.myplugin": "file:../pluginDemo/MyPlugin",
+    "cordova-android": "^13.0.0",
+    "cordova-ios": "^7.1.1",
+    "cordova-plugin-alertplugin": "file:../AlertPlugin",
+    "cordova-plugin-camera": "^7.0.0",
+    "cordova-plugin-device": "^3.0.0"
+  },
+  "cordova": {
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "plugins": {
+      "cordova-plugin-alertplugin": {},
+      "cordova-plugin-device": {},
+      "cordova-plugin-camera": {
+        "ANDROIDX_CORE_VERSION": "1.6.+"
+      },
+      "com.sa.anb.myplugin": {},
+      "cordova-plugin-add-swift-support": {}
+    }
+  },
+  "dependencies": {
+    "cordova-plugin-add-swift-support": "2.0.2"
+  }
+}
